@@ -1,6 +1,26 @@
              
             .img{
                 width:100% ;
+                position: relative;
+            }
+            .con-img{
+                 position: relative;
+            }
+            .time{
+                position: absolute;
+                right: 5px;
+                bottom: 8px;
+                border-radius: 2px;
+                background-color: black;
+                color: white;
+                font-family: roboto,arial;
+                font-size: 12px;
+                font-weight: 500;
+                padding-left: 4px;
+                padding-right: 4px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+
             }
             .prof{
                 vertical-align: top;
