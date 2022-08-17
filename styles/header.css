@@ -1,0 +1,38 @@
+ .search-bar{
+    height: 20px;
+}
+
+
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.leftSec{
+  
+ 
+     display: flex;
+    align-items: center;
+}
+.middleSec{
+    background-color:lightpink;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+}
+.rightSec{
+    background-color: lightblue;
+    width: 200px;
+
+}
+.menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube{
+    height: 20px;
+}
