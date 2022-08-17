@@ -31,6 +31,7 @@
     border-style: solid ;
     border-bottom-width: 1px;
     border-color: rgb(230,230,230);
+    z-index: 101010;
 }
 .leftSec{
   
