@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Inner Page - iPortfolio Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <div style="margin-right: 0;  color: blanchedalmond;font-size: larger;font-weight: bold;">project section </div>
+        <ul>
+          <li><a href="#Overview" class="nav-link scrollto active"><i class="bx bx-server"></i>
+              <span>Overview</span></a>
+          </li>
+          <li><a href="#Database" class="nav-link scrollto"><i class="bx   bx-server"></i> <span>Database</span></a>
+          </li>
+
+          <li><a href="#Diagrams" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Diagrams</span></a></li>
+          <li><a href="#Inter_Service_Communication" class="nav-link scrollto"><i class="bx bx-server"></i>
+              <span>Inter-Service
+                Communication</span></a></li>
+
+          <li><a href="#Dashboard" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Dashboard</span></a>
+          </li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Inner Page</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Fire analysis</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container" style="margin-left: 15px; margin-right: 20px;">
+        <!-- <p>
+          Example inner page template
+        </p> -->
+        <h1>Project Documentation</h1>
+        <p><strong>Repository:</strong> <a href="https://github.com/alialsuleman/Fire-analysis" target="_blank">GitHub -
+            Fire Analysis</a></p>
+
+        <p><strong>Note:</strong> Some features can be found in the <code>Development</code> branch. Once they are
+          complete and tested, they will be merged into the main branch.</p>
+        <section id="Overview">
+          <h2>Overview</h2>
+          <div style="display: flex;">
+            <div style=" flex:1; margin-right: 50px;">
+              <section>
+                <h2>Fire Detection System Overview</h2>
+                <p>
+                  Our fire detection application is designed to receive and analyze user-submitted alerts to identify
+                  potential fire incidents.
+                  This document details the processes and algorithms involved in detecting and managing fire alerts.
+                </p>
+                <p>
+                  The system processes geospatial data related to natural disaster alerts, correlating them based on
+                  time and location
+                  to identify possible disaster events.
+                </p>
+                <p>
+                  Each event is represented by geographical coordinates, including location, spread radius, temporal
+                  data, and
+                  statistical attributes such as severity, credibility, and other relevant metrics.
+                </p>
+              </section>
+
+              <section>
+                <h2>Alert Reception and Processing</h2>
+                <ul>
+                  <li>The application receives alerts from users indicating potential fire outbreaks.</li>
+                  <li>Each alert contains coordinates and a radius defining the affected area.</li>
+                  <li>Upon receiving an alert, a dormant node is created to represent the fire occurrence in that
+                    location.</li>
+                </ul>
+              </section>
+
+
+            </div>
+            <div style="flex:1;  margin-right: 10px;">
+              <img src="./assets/img/System_desgin.png" style="width: 300px;  ">
+            </div>
+
+          </div>
+
+        </section>
+        <section>
+          <h2>Event Analysis and Intersection</h2>
+          <ul>
+            <li>To analyze fire alerts, the system identifies all events within the same area that may overlap
+              with the fire.</li>
+            <li>Each alert triggers a database query to retrieve all alerts within the specified range
+              corresponding to the fire's spread area.</li>
+            <li>Intersecting events are merged based on their overlapping areas.</li>
+          </ul>
+        </section>
+        <img src="./assets/img//fire/image8.png" style="width: 90%;">
+        <section id="Database">
+          <h2>Database</h2>
+          <br>
+
+          <p>In non-relational database design (such as MongoDB), before defining the schema, it is essential to first
+            consider the queries. What data do I need to access frequently? What data do I not need in real-time? What
+            data plays a crucial role in analysis? From there, several logical solutions emerge, and we choose the one
+            that best fits our project.</p>
+
+          <h3>Understanding the Scenario</h3>
+
+          <p>Let’s begin by understanding the scenario in which spatial and temporal analysis occurs. Events are coming
+            related to a specific location, and since the events arrive in real-time, the time is tied to the current
+            moment. Therefore, I need to search for all previous events that are still active and geographically related
+            to the new event, compare them with the current event, then create a new active event, calculate the
+            statistical data for this event, and add it to the table while deleting the previous events.</p>
+
+          <h3>Core Database Operations</h3>
+          <ul>
+            <li>Fetch all events in the geographical area where the event occurred.</li>
+            <li>Add a new event to the database.</li>
+            <li>Remove inactive events from the database.</li>
+          </ul>
+
+          <p>We need a way to read data at very high speeds while considering write time.</p>
+
+          <h3>Geospatial Queries</h3>
+          <p>Let’s assume the event occurred at a location with coordinates <strong>x</strong>, <strong>y</strong>. We
+            need to fetch all events within the area:</p>
+          <pre class="code-block">disaster_x in [x- 1 Km, x+ 1 km]</pre>
+          <pre class="code-block">disaster_y in [y- 1 Km, y+ 1 km]</pre>
+
+          <p>Then compare these events with the current event. After this, we might need to delete, at most:</p>
+          <pre class="code-block">disaster_x in [x- 1 Km, x+ 1 km]</pre>
+          <pre class="code-block">disaster_y in [y- 1 Km, y+ 1 km]</pre>
+
+          <p>Assuming these events become incomplete and merge with the current event.</p>
+
+          <h3>Deletion Process</h3>
+          <p>The deletion process may not be a big issue if there are no complex indexes that require large write
+            operations. Since I already know what I will delete, I know exactly where it is and can remove it using its
+            ID. This is an acceptable solution.</p>
+
+          <h3>Search Efficiency</h3>
+          <p>
+            The main challenge lies in the ability to find this data, especially when searching through millions of
+            current events. To address this, I have documented the algorithms I proposed to enhance search efficiency
+            and performance in the following file:
+            <a href="https://drive.google.com/file/d/1bB6PcCuE2MU4pmsHRq8LCePFIf99m8wk/view?usp=sharing"
+              target="_blank">
+              Algorithm Optimization Document
+            </a>.
+            One solution I considered is leveraging latitude and longitude and dividing the map into fixed grid squares,
+            each measuring 1 km². Each square is assigned a unique identifier, and every event belonging to a specific
+            grid section is determined through certain calculations.
+          </p>
+
+          <p>We can imagine a situation where all decimal numbers between the range [1, 2) are distinguished by the
+            number 1. Then, we can query the database to search for all numbers associated with the number 1 and
+            retrieve them. By indexing these values, we can retrieve them much faster.</p>
+          <div style="display: flex;">
+            <div style=" flex:1;">
+              <img src="./assets/img/fire/image4.jpg" style="width: 50%;margin-left: 30%;">
+            </div>
+            <div style=" flex:1;">
+              <img src="./assets/img/fire/image5.png" style="width: 40%;">
+            </div>
+          </div>
+          <br>
+          <h3>Table Structure</h3>
+          <p>This formed a table representing events that includes fields identifying the map section the event
+            belongs
+            to and some statistical data.</p>
+
+          <p>Although all data in this table have a one-to-one relationship, one improvement I made to increase the
+            efficiency of data retrieval and reading is to divide the data into multiple groups. Now, I have three
+            types
+            of tables:</p>
+          <ul>
+            <li>The first table contains the spatial data of active events, represented by geographic coordinates,
+              reference grid, and spread radius.</li>
+            <li>The second table contains statistical and descriptive data for active events.</li>
+            <li>The third table contains all data related to inactive events.</li>
+          </ul>
+
+          <h3>Search Strategy</h3>
+          <p>The idea in this section is that the only place I need to search is the first table to get the data for
+            nearby events. Data in the second table is only needed when a certain condition is met: the events are
+            related, and the number of related events will be very few compared to the number of events within a given
+            geographic section. These can be fetched very quickly using their unique IDs and indexed.</p>
+
+          <p>As for the third table, it contains data that does not help in real-time analysis, so I can remove it
+            from
+            the first and second tables to reduce search complexity, especially since this data is cumulative and
+            could
+            grow to very large sizes, hindering both search and write operations.</p>
+
+          <h3>Using DAL for Database Operations</h3>
+          <p>One of the patterns used to implement the database in the code is through the Data Access Layer (DAL).
+            This
+            approach is useful for separating the database operations from the analysis logic, allowing us to switch
+            between different databases without modifying the analysis logic code. This method increases the
+            flexibility
+            of the project and helps with its maintenance.</p>
+
+          <h2>Cache and Data Retrieval Speed</h2>
+          <p>Since geographically related events come in a synchronized time interval, we can take advantage of this
+            and
+            minimize the number of operations that require database access. I designed a cache layer above the
+            database
+            logic layer to store data that has been recently accessed in memory. This method reduces the cost of
+            accessing data and improves system performance.</p>
+
+          <p>The key point in this layer is that the data for a specific sector in memory must be complete and
+            synchronized with the database. Not all data is considered invalid since we don't know what data is
+            missing
+            or modified. Synchronizing it with the database would cost more than retrieving it fully.</p>
+
+          <p>I used some data structures to manage the cache memory, such as the segment tree, to retrieve the least
+            requested and accessed data, and either delete it from memory or replace it.</p>
+
+        </section>
+        <section id="Diagrams">
+          <h2>Diagrams</h2>
+          <br>
+          <h3>Class Diagram</h3>
+          <img src="./assets/img/class digram.png" style="width: 95%;">
+        </section>
+        <section id="Inter_Service_Communication">
+          <h2>Inter-Service Communication</h2>
+          <p>I used gRPC for receiving notifications from other services. Since there are not many inter-service
+            dependencies, gRPC was a suitable and efficient choice, especially with its use of HTTP/2, which enhances
+            communication performance.</p>
+        </section>
+        <section id="Dashboard">
+          <h2>Dashboard</h2>
+          <p>I utilized an HTTP server to connect to a front-end dashboard that displays a map. Below is an image
+            showcasing the dashboard layout.</p>
+          <!-- Add your image here -->
+          <img src="./assets/img/dashboard.jpg" alt="Dashboard Image" style="width: 95%;">
+
+        </section>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
