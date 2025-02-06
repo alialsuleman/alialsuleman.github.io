@@ -36,6 +36,33 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    body {
+
+      padding: 20px;
+    }
+
+
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      background: white;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
 </head>
 
 <body>
@@ -245,6 +272,157 @@
             <li>The second table contains statistical and descriptive data for active events.</li>
             <li>The third table contains all data related to inactive events.</li>
           </ul>
+          <div>
+
+
+            <h2>DisasterMetaDataDoc</h2>
+            <table>
+              <tr>
+                <th>Field</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td>_id</td>
+                <td>string</td>
+                <td>Unique identifier</td>
+              </tr>
+              <tr>
+                <td>isActive</td>
+                <td>boolean</td>
+                <td>Disaster status</td>
+              </tr>
+              <tr>
+                <td>latitude</td>
+                <td>number</td>
+                <td>Latitude coordinate</td>
+              </tr>
+              <tr>
+                <td>longitude</td>
+                <td>number</td>
+                <td>Longitude coordinate</td>
+              </tr>
+              <tr>
+                <td>radius</td>
+                <td>number</td>
+                <td>Affected area radius</td>
+              </tr>
+              <tr>
+                <td>numOfPost</td>
+                <td>number</td>
+                <td>Number of related posts</td>
+              </tr>
+            </table>
+
+          </div>
+          <h2>DisasterInfoDoc</h2>
+          <table>
+            <tr>
+              <th>Field</th>
+              <th>Type</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>_id</td>
+              <td>string</td>
+              <td>Unique identifier</td>
+            </tr>
+            <tr>
+              <td>position</td>
+              <td>object</td>
+              <td>Location details</td>
+            </tr>
+            <tr>
+              <td>startAt</td>
+              <td>number (timestamp)</td>
+              <td>Disaster start time</td>
+            </tr>
+            <tr>
+              <td>endAt</td>
+              <td>number (timestamp)</td>
+              <td>Disaster end time</td>
+            </tr>
+            <tr>
+              <td>severity</td>
+              <td>number</td>
+              <td>Disaster severity</td>
+            </tr>
+            <tr>
+              <td>confidence</td>
+              <td>number</td>
+              <td>Confidence level</td>
+            </tr>
+            <tr>
+              <td>numLikes</td>
+              <td>number</td>
+              <td>Number of likes</td>
+            </tr>
+          </table>
+
+          <h2>DisasterArchiveDoc</h2>
+          <table>
+            <tr>
+              <th>Field</th>
+              <th>Type</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>_id</td>
+              <td>string</td>
+              <td>Unique identifier</td>
+            </tr>
+            <tr>
+              <td>latitudeIndex</td>
+              <td>number</td>
+              <td>Latitude grid index</td>
+            </tr>
+            <tr>
+              <td>longitudeIndex</td>
+              <td>number</td>
+              <td>Longitude grid index</td>
+            </tr>
+            <tr>
+              <td>isActive</td>
+              <td>boolean</td>
+              <td>Disaster status</td>
+            </tr>
+            <tr>
+              <td>position</td>
+              <td>object</td>
+              <td>Location details</td>
+            </tr>
+            <tr>
+              <td>radius</td>
+              <td>number</td>
+              <td>Affected area radius</td>
+            </tr>
+            <tr>
+              <td>startAt</td>
+              <td>number (timestamp)</td>
+              <td>Disaster start time</td>
+            </tr>
+            <tr>
+              <td>endAt</td>
+              <td>number (timestamp)</td>
+              <td>Disaster end time</td>
+            </tr>
+            <tr>
+              <td>severity</td>
+              <td>number</td>
+              <td>Disaster severity</td>
+            </tr>
+            <tr>
+              <td>confidence</td>
+              <td>number</td>
+              <td>Confidence level</td>
+            </tr>
+            <tr>
+              <td>numOfPost</td>
+              <td>number</td>
+              <td>Number of related posts</td>
+            </tr>
+          </table>
+
 
           <h3>Search Strategy</h3>
           <p>The idea in this section is that the only place I need to search is the first table to get the data for
@@ -309,24 +487,6 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
